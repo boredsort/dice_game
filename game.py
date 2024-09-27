@@ -57,9 +57,9 @@ class Game:
         
 
     def start(self)-> List:
-        """Dice Game that makes player win draw if player gets double 6 and allows are retry,
-        if player gets double 1 then only gets a retry, other numbers returns the result immediately
-        and ends the game.
+        """Dice Game that makes player win draw if player gets double 6 
+        and allows a retry, if player gets double 1 then only gets a retry, 
+        other numbers returns the result immediately and ends the game.
 
         Returns:
             List: Returns a List or an empty list
